@@ -5,7 +5,6 @@ many days user has been alive.
 
 from datetime import datetime
 
-
 while True:
     try:        
         name = input('What is your name?\n')
@@ -15,4 +14,4 @@ while True:
         print(f"{name} you've lived {days_alive} days!!")
         break
     except:
-        pass
+        print('Try again...')
