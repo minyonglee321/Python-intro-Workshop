@@ -11,7 +11,7 @@ def get_todays_date():
     today = datetime.now()
     return today
 
-class HAEmployee():
+class Employee():
     """Creates an HA employee."""
     
     def __init__(self, fullname: str, age: int, knows_Python: bool):
