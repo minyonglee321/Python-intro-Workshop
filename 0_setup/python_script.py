@@ -15,3 +15,7 @@ while True:
         break
     except:
         print('Try again...')
+
+def adding_two_numbers(a: float, b: float):
+    """Adds two numbers"""
+    return a + b
