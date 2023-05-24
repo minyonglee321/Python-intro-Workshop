@@ -5,7 +5,7 @@ many days user has been alive.
 
 from datetime import datetime
 
-while True:
+while False:
     try:        
         name = input('What is your name?\n')
         birth = datetime.strptime(input('When where you born?\n'), "%m/%d/%Y")
@@ -17,5 +17,9 @@ while True:
         print('Try again...')
 
 def adding_two_numbers(a: float, b: float):
+    """Adds two numbers. Of course"""
+    return a + b
+
+def multiplying_two_numbers(a: float, b: float):
     """Adds two numbers"""
     return a + b
